@@ -1,0 +1,13 @@
+a.nav_link {
+    display: inline-block;
+    padding: 18px;
+    border-radius: 50%;
+}
+
+a.nav_link:hover {
+    cursor: pointer;
+    background-color: purple;
+    text-decoration: none;
+    color: white;
+
+}

@@ -1,0 +1,15 @@
+
+.one {
+    width: 300px;
+    height:50px;
+}
+.one img {
+    width: 250px;
+    height: 250px;
+}
+.two { 
+    display: none;
+}
+.one:hover > .two {
+    display: block;
+}

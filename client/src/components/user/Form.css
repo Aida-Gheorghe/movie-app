@@ -1,0 +1,69 @@
+/*User*/
+* {
+  margin: 0;
+  color: #333;
+  text-decoration: none;
+}
+
+/*List*/
+.user-preview {
+  width: 600px;
+  padding: 10px 16px;
+  margin:  0 auto;
+  border-bottom: 1px solid #fafafa;
+}
+.user-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.3);
+}
+.user-preview h2 {
+  font-size: 20px;
+  color: purple;
+  margin-bottom: 8px;
+}
+
+article{
+  max-width: 600px;
+  text-align:start;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.4);
+} 
+.user-details button, .btn {
+  background: purple;
+  color: #fff;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+} 
+
+/*FORM*/
+.create, .update, .edit {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .create label, .update label, .edit label {
+    text-align: left;
+    display: block;
+  }
+  .create h2, .update h2, .edit h2{
+    font-size: 20px;
+    color: purple;
+    margin-bottom: 30px;
+  }
+  .create input, .create textarea, .update input, .update textarea, .edit input, .edit textarea {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+  }
+  .create button, .update button, .edit button {
+    background: purple;
+    color: #fff;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
